@@ -62,38 +62,21 @@
 
 </section>
  <h1 id="titleLine">Emily Campbell</h1> 
+	<style>
+    .bigger {
+        font-size: 2.5em;
+    }
+</style>
+	<script language="JavaScript">
+               function changeStuff() {
+        titleLine = document.getElementById("titleLine");
+        titleLine.className = ".bigger";
+    }
+</script>
 
 <section data-bs-version="5.1" class="header11 cid-sIDRT6cNlC" id="header11-18">
 
-    <style>
-    .bigger{
-        font-size: 24px;
-    }
 
-    .normal{
-        font-size: 12px;
-    }
-</style>
-
-<script language="JavaScript">
-    var makeBig = true
-function theScript(){
-    titleLine = document.getElementById("navbar-caption");
-
-    if (makeBig){
-    titleLine.className = "bigger";
-    }
-    else{
-    titleLine.className = "normal";
-    }
-    
-    makeBig=!makeBig;
-}
-</script>
-
-    <a id="navbar-caption">Stuff to change</a>
-
-    <div onclick="theScript()" style="width: 100; height: 100; background-color: aqua;">Press Me!</div>
 
     
 
