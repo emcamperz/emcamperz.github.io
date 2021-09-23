@@ -21,9 +21,23 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
  
- 
+ <script language="javascript">
+            function makeChange() {
+				poem = document.getElementById("poem");
+				document.body.className = "pink";
+				poem.className = "white mystery";
+				heading.innerHTML = "<a href='mailto:eec5@uscupstate.edu'>Email me</a> with questions.</a>"
+			}
+			
+			function changeBack() {		
+				document.body.className = "white";
+				poem.className = "pink";
+				heading = document.getElementById("heading");
+				heading.innerHTML = "";
+			}
+        </script>
 
-  
+  	<button onclick="javascript:makeChange()">Click Me</button>
 </head>
 <body>
   
